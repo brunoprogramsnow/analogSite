@@ -10,9 +10,15 @@ h8{
     font-size: 15px;
 } 
 h1{
-    font-family:'airbag';
+    font-family: 'Lobster', cursive; 
+    color: #337ab7;
 } 
 h9{
     font-size: 25px; 
     font-style: bold;
+} 
+#mainLogo{
+    height: 150px;
+    width: 150px; 
+    margin-top: 20px;
 }
