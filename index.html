@@ -16,7 +16,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/my.css">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,17 +33,13 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a> 
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
-            </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            <li class="sidebar-brand">  
+                <a href="#top"  onclick = $("#menu-close").click(); >Analog Method</a>
             </li>
             <li>
                 <a href="#about" onclick = $("#menu-close").click(); >About</a>
@@ -61,8 +58,8 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <img style= width='250px' height='250px'src="img/logo.png">
+        <div class="text-vertical-center"> 
+            <img src="img/amlogo.png" height='150px' width='150px'>
             <h1>Analog Method</h1>
             <h3>Driving human business with technology solutions</h3>
             <br>
@@ -119,7 +116,7 @@
                             <strong>Full-Stack Web Development</strong>
                         </h4>
                         <p> Full Stack A to Z development/ on a completely responsive display</p>
-                       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cloudModal">Learn More</button>
+                       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#fullModal">Learn More</button>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -132,7 +129,7 @@
                             <strong>Data<br> Solutions</strong>
                         </h4>
                         <p>Advanced Data Solutions with full management and integration</p>
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cloudModal">Learn More</button>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#dataModal">Learn More</button>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -145,7 +142,7 @@
                             <strong>Business<br>Technology Consulting</strong>
                         </h4>
                         <p>A to Z consulting on how technology can advance your business</p>
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cloudModal">Learn More</button>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#businessModal">Learn More</button>
                     </div>
                 </div>
                 </div>
@@ -244,41 +241,92 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                <a href='#' data-toggle="modal" data-target="#beerModal"> 
+                                    <h4>Anheuser-Busch Inbev: Data Warehousing</h4>
+                                    <img class="img-portfolio img-responsive" src="img/aninbev.jpg" alt=""> 
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                <a href="#" data-toggle="modal" data-target="#barbieModal"> 
+                                    <h4>Barbie: Responsive Interactive Website</h4>
+                                    <img class="img-portfolio img-responsive" src="img/barbie.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                <a href="#" data-toggle="modal" data-target="#creditModal"> 
+                                    <h4>Credit-Suisse: Liquid Alternative Beta</h4>
+                                    <img class="img-portfolio img-responsive" src="img/credit.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                <a href="#" data-toggle="modal" data-target="#lancomeModal"> 
+                                    <h4>Lancome: House of Color Application</h4>
+                                    <img class="img-portfolio img-responsive" src="img/lancome.jpg">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                  
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container --> 
+         <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" data-toggle="modal" data-target="#fishModal"> 
+                                    <h4>Pepperidge Farm: Goldfish Positive Parenting</h4>
+                                    <img class="img-portfolio img-responsive" src="img/goldfish.jpg" alt=""height:'350px' width:'350px'> 
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" data-toggle="modal" data-target="#seatowModal"> 
+                                    <h4>Seatow: Responsive Website and Mobile App</h4>
+                                    <img class="img-portfolio img-responsive" src="img/seatow.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#"data-toggle="modal" data-target="#universalModal"> 
+                                    <h4>Universal Processing: ERP/ Mobile Application</h4>
+                                    <img class="img-portfolio img-responsive" src="img/universal.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" data-toggle="modal" data-target="#davidModal">
+                                    <h4>David Yurman: Facebook Application</h4>
+                                    <img class="img-portfolio img-responsive" src="img/david.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                  
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
+
     </section>
 
     <!-- Call to Action -->
@@ -286,9 +334,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                    <h3>We build products with structure, and guarantee only the best work for our clients!</h3>
                 </div>
             </div>
         </div>
@@ -314,19 +360,22 @@
                     <p>244 5th Ave<br>New York, N.Y. 10037</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> +1 (212) 288-4999</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="info@analogmethod.com">info@analogmethod.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:info@analogmethod.com?Subject=Contact%20Form" target="_top">info@analogmethod.com</a>
                         </li>
                     </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://www.facebook.com/analogmethod"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <a href="https://twitter.com/analogmethod"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/company/analog-method"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li> 
+                        <li>
+                            <a href="https://github.com/analogmethod/editorial"><i class="fa fa-github fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
@@ -342,7 +391,24 @@
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                   <div class="modal-header">
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                    <h9 class="modal-title">Cloud Based/API Integrations</h9>
+                                                </div>
+                                                <div class="modal-body">
+                                              
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+    </div>
+    </div> 
+     <div id="fullModal" class="modal fade" role="dialog">
+                                            <div id="fullModal"  class="modal-dialog">
+
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h9 class="modal-title">Full-Stack Web Development</h9>
                                                 </div>
                                                 <div class="modal-body">
                                                     <p>Some text in the modal.</p>
@@ -353,13 +419,13 @@
                                             </div>
     </div>
     </div> 
-     <div id="cloudModal" class="modal fade" role="dialog">
-                                            <div id="cloudModal"  class="modal-dialog">
+     <div id="dataModal" class="modal fade" role="dialog">
+                                            <div id="dataModal"  class="modal-dialog">
 
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                   <div class="modal-header">
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                    <h9 class="modal-title">Data Solutions</h9>
                                                 </div>
                                                 <div class="modal-body">
                                                     <p>Some text in the modal.</p>
@@ -370,13 +436,13 @@
                                             </div>
     </div>
     </div> 
-     <div id="cloudModal" class="modal fade" role="dialog">
-                                            <div id="cloudModal"  class="modal-dialog">
+     <div id="businessModal" class="modal fade" role="dialog">
+                                            <div id="businessModal"  class="modal-dialog">
 
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                   <div class="modal-header">
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                    <h9 class="modal-title">Business Technology Consulting</h9>
                                                 </div>
                                                 <div class="modal-body">
                                                     <p>Some text in the modal.</p>
@@ -387,16 +453,224 @@
                                             </div>
     </div>
     </div> 
-     <div id="cloudModal" class="modal fade" role="dialog">
-                                            <div id="cloudModal"  class="modal-dialog">
+     <div id="beerModal" class="modal fade" role="dialog">
+                                            <div id="beerModal"  class="modal-dialog">
 
                                                 <!-- Modal content-->
                                                 <div class="modal-content">
                                                   <div class="modal-header">
-                                                    <h4 class="modal-title">Modal Header</h4>
+                                                    <img src="http://i3.aroq.com/3/ab-sab2.png" height='100px' width='250px'><br>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <p>Some text in the modal.</p>
+                                                    <h7>Problem</h7>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul> 
+                                                    <h8>Solution</h8>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+    </div>
+    </div> 
+    <div id="barbieModal" class="modal fade" role="dialog">
+                                            <div id="barbieModal"  class="modal-dialog">
+
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                  <div class="modal-header"> 
+                                                    <img src="http://static.tumblr.com/mfidlw4/v0sn4ves5/thebarbieproject_white_logo.jpg" height="100px" width='250px'><br>
+                                                </div>
+                                                <div class="modal-body">
+                                                      <h7>Problem</h7>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul> 
+                                                    <h8>Solution</h8>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+    </div>
+    </div> 
+    <div id="creditModal" class="modal fade" role="dialog">
+                                            <div id="creditModal"  class="modal-dialog">
+
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                  <div class="modal-header"> 
+                                                    <img src="http://www.money2020.com/sites/default/files/credit_suisse.png" height='100px' width='250px'><br>
+                                                </div>
+                                                <div class="modal-body">
+                                                   <h7>Problem</h7>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul> 
+                                                    <h8>Solution</h8>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+    </div>
+    </div> 
+    <div id="lancomeModal" class="modal fade" role="dialog">
+                                            <div id="lancomeModal"  class="modal-dialog">
+
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                  <div class="modal-header"> 
+                                                    <img src="http://i960.photobucket.com/albums/ae88/scentful/brand%20logo/logo-lancome.jpg" height='100px' width='250px'><br>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <h7>Problem</h7>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul> 
+                                                    <h8>Solution</h8>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul>
+                                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/Conf9Ccdhjo" frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+    </div>
+    </div> 
+    <div id="fishModal" class="modal fade" role="dialog">
+                                            <div id="fishModal"  class="modal-dialog">
+
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                  <div class="modal-header"> 
+                                                    <img src="http://mms.businesswire.com/media/20131021005397/en/388057/4/Pepperidge_Farm_Logo.jpg" height='100px' width='250px'><br>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <h7>Problem</h7>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul> 
+                                                    <h8>Solution</h8>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+    </div>
+    </div> 
+    <div id="seatowModal" class="modal fade" role="dialog">
+                                            <div id="seatowModal"  class="modal-dialog">
+
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                  <div class="modal-header"> 
+                                                    <img src="http://static1.squarespace.com/static/556b867ee4b0d7e06ee9a277/55f1aae8e4b037162e3bbfdb/55f1acfee4b0c5134f7e9cfc/1441902182793/seatow.png" height="100px" width='250px'><br>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <h7>Problem</h7>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul> 
+                                                    <h8>Solution</h8>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+    </div>
+    </div> 
+    <div id="universalModal" class="modal fade" role="dialog">
+                                            <div id="universalModal"  class="modal-dialog">
+
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                  <div class="modal-header"> 
+                                                    <img src="http://www.uprocessing.com/wp-content/uploads/2015/06/logo-en.png" height='100px' width='250px'><br>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <h7>Problem</h7>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul> 
+                                                    <h8>Solution</h8>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+    </div>
+    </div> 
+    <div id="davidModal" class="modal fade" role="dialog">
+                                            <div id="davidModal"  class="modal-dialog">
+
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                  <div class="modal-header"> 
+                                                    <img src="http://imageeyeworks.com/wp-content/uploads/2013/05/david-yurman-logo-1.jpg" height='100px' width='250px'><br>
+                                                </div>
+                                                <div class="modal-body">
+                                                   <h7>Problem</h7>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul> 
+                                                    <h8>Solution</h8>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">First item</li>
+                                                        <li class="list-group-item">Second item</li>
+                                                        <li class="list-group-item">Third item</li>
+                                                    </ul>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
