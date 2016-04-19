@@ -1,24 +1,33 @@
 h7{
-    font-style: bold; 
+    font-family: 'Lobster', cursive; 
     color: red; 
-    font-size: 15px;
-
+    font-size: 20px; 
 }
 h8{
-    font-style: bold; 
+    font-family: 'Lobster', cursive;  
     color: green; 
-    font-size: 15px;
+    font-size: 20px;
 } 
 h1{
-    font-family: 'Lobster', cursive; 
+    font-family: 'Oswald', sans-serif; 
     color: #337ab7;
 } 
 h9{
     font-size: 25px; 
-    font-style: bold;
+    font-family: 'Oswald', sans-serif;
 } 
 #mainLogo{
-    height: 150px;
-    width: 150px; 
+    height: 175px;
+    width: 175px; 
     margin-top: 20px;
+} 
+h10{
+    font-family: 'Lobster', cursive; 
+    color:black; 
+    font-size: 20px;
+
+}
+#check{
+    color:green; 
+    float: right;
 }
